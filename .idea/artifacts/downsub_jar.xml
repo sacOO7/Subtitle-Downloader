@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="downsub:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/downsub_jar</output-path>
+    <root id="archive" name="downsub.jar">
+      <element id="module-output" name="downsub" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/downsub.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

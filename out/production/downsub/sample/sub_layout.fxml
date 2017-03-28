@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="subpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="94.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="16.0" layoutY="42.0" text="Season (series)" />
+      <Label layoutX="378.0" layoutY="43.0" text="Episode (series)" />
+      <JFXTextField fx:id="season" layoutX="128.0" layoutY="33.0" maxWidth="221.0" minWidth="212.0" prefHeight="31.0" prefWidth="221.0" />
+      <JFXTextField fx:id="episode" layoutX="496.0" layoutY="34.0" maxWidth="221.0" minWidth="212.0" prefHeight="31.0" prefWidth="221.0" />
+      <Label layoutX="750.0" layoutY="49.0" text="Language" />
+      <JFXComboBox layoutX="855.0" layoutY="38.0" prefHeight="25.0" prefWidth="129.0" />
+   </children>
+</Pane>

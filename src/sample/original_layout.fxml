@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorroot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+
+      <JFXTreeTableView fx:id="jfxtable" layoutX="14.0" layoutY="61.0" prefHeight="451.0" prefWidth="1010.0" />
+      <JFXTextField fx:id="searchedittext" focusColor="SLATEGRAY" layoutX="15.0" layoutY="17.0" maxWidth="719.0" minWidth="371.0" prefHeight="39.0" prefWidth="371.0" promptText="Movie Or TV series Name">
+         <font>
+            <Font name="Droid Sans" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="searchbutton" buttonType="RAISED" layoutX="398.0" layoutY="19.0" prefHeight="31.0" prefWidth="111.0" ripplerFill="slategray" style="-fx-background-color: #e0e0e0;" text="search">
+         <font>
+            <Font name="KacstPoster" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXProgressBar fx:id="progressbar" layoutX="768.0" layoutY="35.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="150.0" />
+      <JFXCheckBox fx:id="advancedoptions" layoutX="538.0" layoutY="28.0" />
+      <Label layoutX="584.0" layoutY="23.0" prefHeight="23.0" prefWidth="199.0" text="Advanced Options">
+         <font>
+            <Font name="Droid Sans Georgian" size="16.0" />
+         </font></Label>
+      <ImageView fx:id="setting" fitHeight="30.0" fitWidth="30.0" layoutX="987.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: transparent">
+         <image>
+            <Image url="@ic_settings_black_24dp_2x.png" />
+         </image></ImageView>
+      <ImageView fx:id="deleteandclose" fitHeight="30.0" visible="false" fitWidth="30.0" layoutX="938.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: transparent">
+         <image>
+            <Image url="@ic_close_black_24dp_2x.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
